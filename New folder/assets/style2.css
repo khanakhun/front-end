@@ -1,0 +1,117 @@
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list-text{
+    text-decoration: none !important;
+    text-align: left!important;
+    font: 1rem !important;
+    color: black !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-text a{
+    text-decoration: none !important;
+    text-align: left!important;
+    font: 1rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.list-text a:hover{
+    color: red;
+}
+.list-head a{
+    text-decoration: none !important;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bolder;
+}
+
+.list-head a:hover{
+    color: red;
+}
+
+
+
+
+
+
+/* // Profile page css  */
+
+.profile-head h1{
+    text-align: left;
+    font: 2.5rem black bolder;
+}
+.profile-text{
+    text-align: center;
+    font: 1rem black ;
+}
+
+.buttons{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; 
+}
+
+
+.buttons button{
+    background-color: #21b4db;
+
+    border-color:  #21b4db ;
+}
+
+.button{
+    height: 5rem;
+}
+.items{
+    width: 50%;
+    margin: 1em 0;
+    
+}
+.items ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+.items li {
+    list-style: none;
+    display: flex;
+    width: calc(100% / 3);
+    height: 120px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .intro-text  p {
+      font: 1.5rem black bold;
+      text-transform: capitalize;
+  }
+  
+  .intro-text  h1 {
+    font: 4rem black bold;
+    text-transform: capitalize;
+}
+
+hr.decorated {
+    height: 2px;
+    margin-bottom: 15px;
+    border: 0;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(10%, #01193e),
+      color-stop(10%, #c6c6c6)
+    );
+    background: -webkit-linear-gradient(left, #01193e 10%, #c6c6c6 10%);
+    background: linear-gradient(to right, #01193e 10%, #c6c6c6 10%);
+  }
